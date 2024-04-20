@@ -1,0 +1,78 @@
+
+
+
+h1, h2 {
+  text-align: center;
+  font-size: 42px;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  color: #ffd900;
+}
+
+
+p {
+  text-align: center;
+  font-size: 32px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #ffd900;
+}
+
+
+
+body {
+  background-image: url('Call of Duty.png'); /* Replace with your image path */
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+
+
+
+.button-container {
+  display: flex; 
+  justify-content: center; 
+  align-items: center;  
+ 
+  position: absolute; 
+  top: 50%;  
+  left: 50%;  
+  transform: translate(-50%, -50%);  
+}
+
+
+a button {
+  
+  background-color: #ffc400; 
+  border: black;
+  color: rgb(31, 142, 233);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;  
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;  
+}
+
+a button:hover {
+  background-color: #ffd900;  
+}
+
+
+
+/* Target the button by its ID */
+#playButton {
+  /* Center the button horizontally */
+  display: block;
+  margin: 0 auto;
+  
+  /* Make the button yellow */
+  background-color: yellow;
+  color: cornflowerblue;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+  /* Optional: Add some padding for better visual separation */
+  padding: 10px 20px;
+}
